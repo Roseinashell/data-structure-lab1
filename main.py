@@ -1,16 +1,16 @@
-# This is a sample Python script.
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+if first > second:
+    print(str(first)+ " is greater than " + str(second))
+elif first < second:
+    print(str(first) + " is less than " + str(second))
+elif first == second:
+    print(str(first) + " is euqals to " + str(second))
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+"""
+name1 = input("Enter classmate name 1: ")
+name2 = input("Enter classmate name 2: ")
+name3 = input("Enter classmate name 3: ")
+print("Your classmates are: " + name1 + ", " + name2 + ", & " + name3 + ".")
+"""
